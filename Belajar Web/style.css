@@ -1,0 +1,90 @@
+/*style*/
+body {
+    font: 16px/28px arial.sans-serif;
+    background-color:#eaeaea
+    background-image:url(background.jpg);
+    color: #333333;
+
+}
+
+.container {
+    widht: 800px;
+    margin: auto;
+    background-color: #f3e8b8;
+
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: slateblue;
+}
+
+.header a:hover {
+    background-color: rgb(88, 87, 77);
+    color: white;
+}
+
+.hero {
+    height: 250px;
+    background-image: url(kopilaptop.png);
+    background-size: 100%;
+    background-size: cover;
+    border-bottom: 5px solid rgb(220, 236, 182);
+    border-top: 5px solid rgb(198, 207, 144);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a {
+    color: #eeaaee;
+    text-decoration: none;
+}
+

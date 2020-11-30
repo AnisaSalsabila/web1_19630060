@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mahasiswa</title>
+</head>
+<body>
+    <p>Silahkan Isi data dibawah ini dengan benar: </p>
+    <form action="proses.php" method="get">
+        Nama: <input type="text" name="nama" placeholder="Ketikkan nama anda">
+       <br>
+       <br>
+       Paswoord: <input type="paswoord" placeholder="Ketikkan paswoord anda">
+       <br>
+       <br>
+        Hobi: <input type="checkbox" name="hobi1">Gowes
+              <input type="checkbox" name="hobi2">Memancing
+              <input type="checkbox" name="hobi3">Menyanyi
+        <br>
+        <br>
+        Jenis Kelamin: <input type="radio" name="jen_kel" value="L">Laki-laki 
+        <br>
+        Jenis Kelamin: <input type="radio" name="jen_kel" value="P">Perempuan 
+        <br>
+        <br>
+        Tanggal Lahir: <input type="date" name="tgl_lahir">
+        <br>
+        <br>
+        Tempat Lahir:
+        <select name="asal daerah">
+            <option value="Bjm">Banjarmasin</option> 
+            <option value="Bjb">Banjarbaru</option>
+            <option value="Mtp">Martapura</option>
+            <option value="Btl">Batulicin</option>
+        </select>
+        <br>
+        <br>
+        Keterangan : <textarea name="keterangan" cols="30" rows="5"></textarea>
+        <input type="submit" value="Kirim data">
+    </form>
+</body>
+</html>
